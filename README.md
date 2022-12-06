@@ -5,7 +5,7 @@ An algorithm will help you to solve Lamport vector clocks examples.
 ## Installation
 
 - Make sure you have python3 installed.
-- No need to install any external modules.
+- No need to install any modules:
 
 ## How to use?
 
@@ -20,6 +20,10 @@ python3 main.py
 - You have to sequential arrangement every event by letter as in the following example (until you can determine sender and receiver by its letter).
 
 ![](https://github.com/3bodymo/lamport-vector-clocks/blob/main/example.png)
+
+## Update
+
+I released a new version from my program, so the new is working better, more efficient, and it support more than three processes.
 
 ## Demo
 
