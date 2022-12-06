@@ -21,6 +21,10 @@ python3 main.py
 
 ![](https://github.com/3bodymo/lamport-vector-clocks/blob/main/example.png)
 
+## Update
+
+I released a new version from my program, so the new is working better, more efficient, and it support more than three processes.
+
 ## Demo
 
 ![](https://github.com/3bodymo/lamport-vector-clocks/blob/main/demo.gif)
