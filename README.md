@@ -5,7 +5,7 @@ An algorithm will help you to solve Lamport vector clocks examples.
 ## Installation
 
 - Make sure you have python3 installed.
-- No need to install any modules:
+- No need to install any modules.
 
 ## How to use?
 
