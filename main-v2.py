@@ -40,9 +40,9 @@ def eventLocation(l):
     for p in processes:
         for letter in processes[p]:
             if(letter == l):
-            # "p" represent location of event
-            # "process[p][letter]" represent timestamp of event
-            # "letter" represent letter of event
+                # "p" represent location of event
+                # "process[p][letter]" represent timestamp of event
+                # "letter" represent letter of event
                 return p, processes[p][letter], letter
 
 def arrCopy(arr):
@@ -84,7 +84,7 @@ def main():
 
     for p in processes:
         print(f"{p}: {processes[p]}")
-        
+
 
 if __name__ == "__main__":
     main()
