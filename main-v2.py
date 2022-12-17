@@ -5,14 +5,12 @@ senders = []
 receivers = []
 
 def updateNextForP(process, prevTimestamp, location):
-    for p in processes:
-        if(p == process):
-            for letter in processes[p]:
-                bl = isLetterBiggerOrEqual(letter, location)
-                if(bl):
-                    for i in range(len(vectorOfProcess)):
-                        if(processes[p][letter][i] < prevTimestamp[i]):
-                           processes[p][letter][i] = prevTimestamp[i]
+    for letter in processes[process]:
+        bl = isLetterBiggerOrEqual(letter, location)
+        if(bl):
+            for i in range(len(vectorOfProcess)):
+                if(processes[process][letter][i] < prevTimestamp[i]):
+                    processes[process][letter][i] = prevTimestamp[i]
 
 def isLetterBiggerOrEqual(letter, currentLetter):
     letterLocation = 0
